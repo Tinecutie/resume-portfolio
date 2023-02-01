@@ -1,0 +1,52 @@
+*{
+    margin: 0 ;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+.containerNav{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #FFC0CB;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 25px;
+    line-height: 20px;
+    z-index: 111;
+    background-color: #FF1493;
+}
+.logo{
+    display: flex;
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+b{
+    font-size: 70px;
+    color:#FFB6C1;
+}
+.NavItems{
+    display: flex;
+}
+.NavItems li{
+    list-style: none;
+    margin: 0 10px;
+}
+.NavItems li a{
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.NavItems li:hover a{
+color: #FFB6C1;
+}
+.Resume{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
